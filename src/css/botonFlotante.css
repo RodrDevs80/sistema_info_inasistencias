@@ -1,0 +1,20 @@
+.float-wa {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+@media (max-width: 685px) {
+  .float-wa {
+    position: absolute;
+    bottom: -315px;
+    right: 20px;
+  }
+}
