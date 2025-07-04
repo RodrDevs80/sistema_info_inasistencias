@@ -1,6 +1,6 @@
 import { addDoc, collection, deleteDoc, doc } from "firebase/firestore";
-import Contexto from "./contexto";
 import { db } from "../firebase/config";
+import { Contexto } from "./contexto";
 
 export const ProviderContexto = ({ children }) => {
   const stadoInicial = {

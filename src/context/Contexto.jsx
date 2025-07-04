@@ -1,5 +1,3 @@
 import { createContext } from "react";
 
-const Contexto = createContext();
-
-export default Contexto;
+export const Contexto = createContext();
